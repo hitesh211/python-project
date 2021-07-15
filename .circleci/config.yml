@@ -9,6 +9,6 @@ jobs:
   test:
   docker:
       - image: cimg/python:3.9.6
-    steps:
+    steps :
       - checkout
       - run: python --version
